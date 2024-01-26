@@ -20,7 +20,7 @@ int check_value(int& attempts_count, int& max_value) {
 
 	random_value(target_value, max_value);
 
-	std::cout << "Random_value:" << target_value << std::endl;
+	//std::cout << "Random_value:" << target_value << std::endl;
 	std::cout << "Enter your guess:" << std::endl;
 
 	do {
