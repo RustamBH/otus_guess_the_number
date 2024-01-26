@@ -13,7 +13,7 @@ void random_value(int& target_value, const int& max_value) {
 
 
 // Check guess number
-int check_value(int& attempts_count, int& max_value) {	
+int check_value(int& attempts_count, const int& max_value) {	
 	int target_value = 0;
 	int current_value = 0;
 	bool not_win = true;
