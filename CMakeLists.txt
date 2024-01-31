@@ -12,7 +12,7 @@ add_executable(guess_the_number
     	write_scores.h
 )
 
-set_target_properties(hello_world PROPERTIES
+set_target_properties(guess_the_number PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
 )
