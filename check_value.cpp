@@ -11,8 +11,7 @@ void random_value(int& target_value, const int& max_value) {
 
 int check_value(int& attempts_count, int& max_value) {
 	int target_value = 0;
-	int current_value = 0;
-	//bool not_win = true;
+	int current_value = 0;	
 
 	random_value(target_value, max_value);
 
