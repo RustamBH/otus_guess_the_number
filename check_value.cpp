@@ -13,11 +13,8 @@ int check_value(int& attempts_count, int& max_value) {
 	int target_value = 0;
 	int current_value = 0;	
 
-	random_value(target_value, max_value);
-
-	std::cout << "Random_value:" << target_value << std::endl;
+	random_value(target_value, max_value);	
 	std::cout << "Enter your guess:" << std::endl;
-
 	do {
 		attempts_count++;
 		std::cin >> current_value;
@@ -32,7 +29,6 @@ int check_value(int& attempts_count, int& max_value) {
 			std::cout << "you win! attempts = " << attempts_count << std::endl;
 			break;
 		}
-
 	} while (true);
 
 	return 0;
