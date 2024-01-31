@@ -1,4 +1,3 @@
-//#include <iostream>
 #include <cstdlib>
 #include <ctime>
 #include "check_value.h"
