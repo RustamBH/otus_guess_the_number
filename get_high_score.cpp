@@ -1,7 +1,6 @@
 #include "get_high_score.h"
 #include <iostream>
 #include <fstream>
-//#include <string>
 #include <map>
 
 
