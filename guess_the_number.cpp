@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
 	const std::string high_scores_filename = "high_scores.txt";
 
 	// Print No Extra Command Line Argument Passed Other Than Program Name
-	if(argc == 1) {
+	if (argc == 1) {
 		std::cout << "Wrong usage! The application needs argument '-max' with some value or argument '-table' to get high score table!" << std::endl;		
 		return -1;
 	}	
