@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 
+
 int main(int argc, char** argv) {
 	const std::string high_scores_filename = "high_scores.txt";
 
